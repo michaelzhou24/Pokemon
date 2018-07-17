@@ -21,10 +21,6 @@ func addAllPokemon() {
     createPokemon(name: "Snorlax", image: "snorlax")
     createPokemon(name: "Pidgey", image: "pidgey")
     let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
-    let pokemon = Pokemon(context: context)
-    pokemon.name = "Rattata"
-    pokemon.image = "rattata"
-    pokemon.isCaught = true
     (UIApplication.shared.delegate as! AppDelegate).saveContext()
 }
 

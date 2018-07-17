@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1245A00720FE5FAB00B016EA /* PokeAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1245A00620FE5FAB00B016EA /* PokeAnnotation.swift */; };
 		126EAF7420F935A3005BEBB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126EAF7320F935A3005BEBB0 /* AppDelegate.swift */; };
 		126EAF7620F935A3005BEBB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126EAF7520F935A3005BEBB0 /* ViewController.swift */; };
 		126EAF7920F935A3005BEBB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 126EAF7720F935A3005BEBB0 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1245A00620FE5FAB00B016EA /* PokeAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeAnnotation.swift; sourceTree = "<group>"; };
 		126EAF7020F935A3005BEBB0 /* Pokemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		126EAF7320F935A3005BEBB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		126EAF7520F935A3005BEBB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				126EAF7520F935A3005BEBB0 /* ViewController.swift */,
 				12E9E31320FBEEB800D3ED3F /* PokedexViewController.swift */,
 				12E9E31520FBEFDA00D3ED3F /* CoreDataHelper.swift */,
+				1245A00620FE5FAB00B016EA /* PokeAnnotation.swift */,
 				126EAF7720F935A3005BEBB0 /* Main.storyboard */,
 				126EAF7D20F935A4005BEBB0 /* Assets.xcassets */,
 				126EAF7F20F935A4005BEBB0 /* LaunchScreen.storyboard */,
@@ -278,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12E9E31620FBEFDA00D3ED3F /* CoreDataHelper.swift in Sources */,
+				1245A00720FE5FAB00B016EA /* PokeAnnotation.swift in Sources */,
 				126EAF7620F935A3005BEBB0 /* ViewController.swift in Sources */,
 				12E9E31420FBEEB800D3ED3F /* PokedexViewController.swift in Sources */,
 				126EAF7420F935A3005BEBB0 /* AppDelegate.swift in Sources */,
